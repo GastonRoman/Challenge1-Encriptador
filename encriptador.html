@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador de texto - 1er challenge ONE</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="encriptador2.css">     
+        
+           
+    </head>
+
+    <body>
+        <header>
+            <h1 class="logo"><img src="Imagenes/Logo.png"></h1>
+        </header>
+
+        <main>
+            
+            <div class="ingreso-texto">
+                <textarea class="text-input" type="text" cols="40" rows="6" placeholder="Ingrese el texto aqui" required pattern="[^A-Z]+"></textarea>
+                
+            </div>
+            
+            <div class="botones">
+                <p class="texto3">&#9888;Solo letras minúsculas y sin acentos</p>               
+                <button type="button" class="enc" onclick="btnencriptar()">Encriptar</button>
+                <button type="button" class="des" onclick="btndesencriptar()">Desencriptar</button>
+
+            </div>
+
+            <div class="caja" id="prueba">
+                
+                <img class="muñeco" src="imagenes/Muñeco.png">
+                <p class="texto1">Ningun mensaje fue encontrado</p>
+                <p class="texto2">Ingrese el texto que desees encriptar o desencriptar.</p>
+            </div>
+
+            <div class="mostrar">
+                <p id="texto4">Texto encriptado/desencriptado</p>
+                <textarea type="texto" class="mensaje" id="input-text" cols="18" rows="8"></textarea>
+
+
+            </div>
+            <div>
+                <input type="button" class="btncopiar" value="Copiar" id="copiar" onclick="uiCopiar()">
+            </div>
+
+
+        </main>
+
+        <footer class="piePagina">
+            <p>Autor: Gastón Román</p>
+
+        </footer>
+
+        <script src="app.js"></script>
+    </body>
+
+
+</html>
+

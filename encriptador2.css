@@ -1,0 +1,228 @@
+html{
+    background: #f3f5fc;
+}
+
+.logo{
+    display: inline-block;
+    position: absolute;
+    left: 35px;
+    top: 30px;
+}
+.caja{
+    box-shadow: 0px 24px 32px -8px;
+    display: inline-block;
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    left: 1100px;
+    top: 30px;
+    background: #ffffff;
+    border-radius: 10px;
+}
+.muñeco{
+    display: inline-block;
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    text-align: center;
+    top: 180px;
+    margin: 0 8%;
+}
+.texto1{
+    position: absolute;
+    width: 336px;
+    height: 58px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #343a40;
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: auto 36px;
+    top: 500px;
+}
+.texto2{
+    position: absolute;
+    top: 570px;
+    text-align: center;
+    margin: auto 36px;
+}
+
+.text-input, .imput-text{
+    position: absolute;
+    width: 647px;
+    height: 48px;
+    left: 240px;
+    top: 168px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: #0a3871;
+    text-align: center;
+    background-color: #f3f5fc;
+    border-radius: 0.5em;
+    border: 1px solid #f3f5fc;
+    resize : none;
+    border: none;
+}
+
+.texto3{
+    position: absolute;
+    width: 205px;
+    height: 18px;
+    left: 245px;
+    top: 861px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    /* identical to box height, or 18px */
+
+
+    /* Gray/gray-400 */
+
+    color: #495057;
+
+    opacity: 0.8;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 8px;
+}
+.texto3:hover{
+    font-weight: bold;
+}
+.enc{
+    display: inline-block;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+
+    position: absolute;
+    width: 328px;
+    height: 67px;
+
+    background: #0a3871;
+    border-radius: 24px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 24px;
+
+    top: 900px;
+    left: 194px;
+    color: #ffffff;
+    
+}
+.enc:hover{
+    background: rgba(8, 235, 178, 0.2);
+}
+.des{
+    display: inline-block;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+
+    position: absolute;
+    width: 328px;
+    height: 67px;
+
+    background: #D8DFE8;
+    border-radius: 24px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 24px;
+
+    top: 900px;
+    left: 545px;
+    color: #0a3871;
+    
+}
+.des:hover{
+    background:  rgba(8, 235, 178, 0.2);
+}
+.mostrar{
+    box-shadow: 0px 24px 32px -8px;
+    display: inline-block;
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    left: 1100px;
+    top: 30px;
+    border-radius: 10px;
+    
+}
+#input-text{
+    display: inline-block;
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    text-align: center;
+    top: 200px;
+    margin: 0 8%;    
+    text-align: center;
+    font-size: 24px;
+    resize : none;
+    border: none;
+    background-color: #f3f5fc;
+    font-family: 'Inter';
+    font-style: normal;
+
+}
+#texto4{
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    padding: 25px;
+    margin: auto;
+    left: 16px;
+    top: 130px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Inter';
+    font-style: normal;
+}
+.btncopiar{
+    display: inline-block;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    position: absolute;
+    width: 220px;
+    height: 67px;
+    background: #0a3871;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 24px;
+    top: 867px;
+    left: 1175px;
+    color: #ffffff;
+    text-align: center;
+}
+.piePagina{
+    display: inline-block;
+    position: absolute;
+    padding: 25px;
+    top: 970px;
+    font-size: 14px;
+    font-weight: 600;
+    color: darkgray;
+}
