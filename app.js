@@ -70,16 +70,7 @@ function desencriptarTexto(mensaje){
         }
     }
     return textoFinal;
- /*   let matrizCodigo = [["enter","e"],["imes","i"],["ai","a"],["ober","o"],["ufat","u"]]
-    string = string.toLowerCase()
-    for (let i=0; i< matrizCodigo.length; i++){
-        if(string.includes(matrizCodigo[i][0])){
-            string = string.replaceAll(matrizCodigo[i][0],matrizCodigo[i][0])
-        }
-    }
-    return string;
-*/
-    
+
 }
 
 const kClipboard = navigator.clipboard
