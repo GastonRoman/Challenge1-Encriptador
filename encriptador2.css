@@ -1,7 +1,6 @@
 html{
     background: #f3f5fc;
 }
-
 .logo{
     display: inline-block;
     position: absolute;
@@ -38,8 +37,7 @@ html{
     font-size: 24px;
     line-height: 120%;
     text-align: center;
-    color: #343a40;
-    
+    color: #343a40;    
     flex: none;
     order: 0;
     align-self: stretch;
@@ -60,7 +58,6 @@ html{
     height: 48px;
     left: 240px;
     top: 168px;
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -80,23 +77,13 @@ html{
     height: 18px;
     left: 245px;
     top: 861px;
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 150%;
-    /* identical to box height, or 18px */
-
-
-    /* Gray/gray-400 */
-
     color: #495057;
-
     opacity: 0.8;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -114,19 +101,15 @@ html{
     position: absolute;
     width: 328px;
     height: 67px;
-
     background: #0a3871;
     border-radius: 24px;
-
     flex: none;
     order: 0;
     flex-grow: 0;
     margin: 0px 24px;
-
     top: 900px;
     left: 194px;
-    color: #ffffff;
-    
+    color: #ffffff;    
 }
 .enc:hover{
     background: rgba(8, 235, 178, 0.2);
@@ -136,23 +119,18 @@ html{
     flex-direction: row;
     align-items: flex-start;
     padding: 24px;
-
     position: absolute;
     width: 328px;
     height: 67px;
-
     background: #D8DFE8;
     border-radius: 24px;
-
     flex: none;
     order: 0;
     flex-grow: 0;
     margin: 0px 24px;
-
     top: 900px;
     left: 545px;
-    color: #0a3871;
-    
+    color: #0a3871;    
 }
 .des:hover{
     background:  rgba(8, 235, 178, 0.2);
@@ -183,7 +161,6 @@ html{
     background-color: #f3f5fc;
     font-family: 'Inter';
     font-style: normal;
-
 }
 #texto4{
     display: inline-block;
